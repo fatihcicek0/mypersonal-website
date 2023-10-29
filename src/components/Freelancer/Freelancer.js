@@ -6,7 +6,7 @@ import './style.css'
 export default function Freelancer() {
     return (
         <div>
-            <div id="container-fr" style={{ backgroundColor: '#eef3ff', padding: 20 }}>
+            <div id="container-fr" >
                 <div>
                     <h2 id='title-fr'>Freelancer ile çalışma avantajları</h2>
                 </div>

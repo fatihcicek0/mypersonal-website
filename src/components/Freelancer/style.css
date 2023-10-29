@@ -1,4 +1,8 @@
-#container-fr {}
+#container-fr {
+background-color: white;
+padding: 50px;
+padding-bottom: 80px;
+}
 
 #title-fr {
     font-size: 35px;
@@ -17,12 +21,13 @@
 
 .card-fr {
     width: 260px;
+
 }
 
 .card-fr img {
     display: block;
     margin: auto;
-    width: 55px;
+    width: 50px;
 }
 
 .cardfr-text {

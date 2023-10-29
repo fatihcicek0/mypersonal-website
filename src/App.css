@@ -3,9 +3,12 @@
   padding:0;
 }
 #app{
-  background-color: #fafbff;
+  /* background-color: #fafbff; */
+  background-color: rgb(243, 245, 249);
 }
 header{
+  height: 60px;
+  background-color: rgb(246, 248, 251);
   display:flex;
   justify-content:space-around;
 }

@@ -1,6 +1,7 @@
 #container-home{
     width:100%;
-    margin: auto;
+    margin:-50px auto;
+    /* background-color: rgb(238, 243, 255); */
     
 }
 #profile-img{
