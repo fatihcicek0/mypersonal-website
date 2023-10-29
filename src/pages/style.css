@@ -68,7 +68,7 @@
     background-color: black;
 }
 #container-web img{
-    width: 569px;
+    width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -78,12 +78,13 @@
     border-radius: 10px;
     width:130px;
     position: absolute;
-    top: 120px;
+    /* top: 120px; */
+    bottom:20px;
     right: -25px;
     box-shadow: 4px 3px 4px 0px #dedede;
 }
 #container-responsive img{
-    width:130px;
+    width:100%;
     border-radius: 10px;
 }
 #notch{
@@ -97,3 +98,57 @@
     border-bottom-right-radius: 10px;
     border-radius: 10px;
 }
+@media only screen and (max-width:1240px){
+    #container-web{
+        width: 500px;
+    }
+    #container-responsive{
+        width:100px;
+    }#title{
+        font-size: 45px;
+        font-weight: 700;
+        padding-left: 70px;
+    }
+}
+@media only screen and (max-width:1240px){
+    .img-tech{
+        width: 90px;
+        margin-left:10px;
+    }
+    #icon-aws{
+        width:40px;
+        height: 35px;
+    }
+    #icon-mysql{
+        width:50px;
+        height: 50px;
+    }
+}
+@media only screen and (max-width:1065px){
+  #solution{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width:600px){
+    #container-web{
+        margin: auto;
+        width: 85%;
+    }
+    #container-responsive{
+        width:95px;
+        margin-right: 40px;
+    }#title{
+        font-size: 40px;
+        width: 90%;
+        padding: 30px;
+
+    }
+  }
+  @media only screen and (max-width:550px){
+    #container-responsive{
+        width:90px;
+        margin-right: 40px;
+        /* bottom:20px; */
+    }
+  }
