@@ -1,0 +1,32 @@
+#container-fr {}
+
+#title-fr {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    color: gray;
+}
+
+#container-cardfr {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+}
+
+.card-fr {
+    width: 260px;
+}
+
+.card-fr img {
+    display: block;
+    margin: auto;
+    width: 55px;
+}
+
+.cardfr-text {
+    color: gray;
+    text-align: center;
+    padding-top: 5px;
+}
