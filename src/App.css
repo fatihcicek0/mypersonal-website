@@ -7,6 +7,7 @@
   background-color: rgb(243, 245, 249);
 }
 header{
+  align-items: center;
   height: 60px;
   background-color: rgb(246, 248, 251);
   display:flex;
@@ -26,4 +27,15 @@ header nav{
   font-size: 23px;
   font-weight: 700;
   padding: 10px;
+}
+@media only screen and (max-width:650px){
+  header a{
+    font-size: 13px;
+    font-weight: 700;
+  }
+  #name{
+    font-size: 17px;
+    align-items: center;
+    
+  }
 }

@@ -27,14 +27,29 @@
 }
 #techs{
     margin: auto;
-    width: max-content;
+    width:90%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
+/*-  -  -   - - - - - - - - - - - - - - - - - - - - - - - - - -- - - Tech İcons - - -  - - - - - - - - - - - -- - -*/
 .img-tech{
-    width: 100px;
-    margin-left:10px;
+    width: 80px;
 }
+#icon-mongo{
+    width:60px;
+}
+#icon-aws{
+    width:40px;
+    height: 35px;
+}
+#icon-mysql{
+    width:50px;
+    height: 50px;
+}
+ /*   - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - */
+
+
 #solution{
     margin: auto;
     display:flex;
@@ -140,9 +155,27 @@
         margin-right: 30px;
     }#title{
         font-size: 40px;
-        width: 90%;
-        padding: 30px;
-
+        width: 100%;
+        padding:20px 0px;
+        text-align: center;
+    }
+    #box-right{
+        width:100%;
+    }
+    #techs{
+        width:100%;
+    }
+    .img-tech{
+        width: 70px;
+        margin-left:5px;
+    }
+    #icon-aws{
+        width:40px;
+        height: 35px;
+    }
+    #icon-mysql{
+        width:40px;
+        height: 40px;
     }
   }
   @media only screen and (max-width:550px){  
@@ -150,9 +183,21 @@
     #container-web{
         margin: auto;
         width: 95%;
-    }#container-responsive{
-        width:90px;
-        margin-right: 30px;
-        /* bottom:20px; */
+    }
+    #container-responsive{
+        width:85px;
+        bottom:10px;
     }
   }
+  @media only screen and (max-width:420px){
+    #title{
+        font-size: 35px;
+        width: 100%;
+        padding:20px 0px;
+
+    }
+    .img-tech{
+        width: 60px;
+        margin-left:5px;
+    }
+  } 
