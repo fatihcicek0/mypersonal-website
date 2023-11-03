@@ -176,7 +176,7 @@
     }
     #icon-mysql{
         width:40px;
-        height: 40px;
+        height: 35px;
     }
   }
   @media only screen and (max-width:550px){  
@@ -205,10 +205,11 @@
         margin-left:5px;
     }
     #icon-mongo{
-        width: 50px;
+        width: 48px;
     }
     #icon-aws{
-        height:30px ;
+        height:25px ;
+        width: 35px;
     }
 
   } 

@@ -1,4 +1,5 @@
 import Card from '../components/card/Card'
+import Contact from '../components/contact/Contact'
 import Freelancer from '../components/Freelancer/Freelancer'
 import './style.css'
 export default function Home() {
@@ -32,7 +33,7 @@ export default function Home() {
                     <div id='title'>
                         <div>İşinizi Geliştirecek</div>
                         <div><span>Mobil Uyumlu</span></div>
-                        <div> <span>Web</span> Çözümleri</div>
+                        <div> <span>Web  Çözümleri</span></div>
                     </div>
                     <div id='techs'>
                         <img className='img-tech' src='https://camo.githubusercontent.com/e8cac53cd22e95a470844c0edda4b9b32261b0c7c01592066eb9fbeffc0d343e/68747470733a2f2f7777772e706870726f2e62652f6d656469612f3434302f646f776e6c6f61642f726561637425343034782e706e673f763d32'></img>
@@ -55,6 +56,7 @@ export default function Home() {
             </div>
             <Card />
             <Freelancer />
+            <Contact />
             {/* <div id='solution'>
                 <div id='screens'>
                     <div id='container-web'>

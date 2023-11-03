@@ -1,0 +1,41 @@
+#container-cnt {
+    height: min-content;
+}
+
+#title-cnt h2 {
+    margin-top: 10px;
+    font-size: 33px;
+    font-weight: 400;
+    text-align: center;
+    color: gray;
+}
+
+#icon-cnt {
+    margin-top: 20px;
+}
+
+#icon-cnt img {
+    display: block;
+    width: 40px;
+
+}
+
+#body-cnt {
+    margin: 20px auto;
+    display: flex;
+    height: 100px;
+    background-color: white;
+    width: max-content;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    box-shadow: 0px 2px 2px 1px rgb(244, 241, 241);
+}
+
+#mail-cnt {
+    margin: 35px 10px;
+}
+
+#mail-cnt a {
+    color: #007bff;
+}

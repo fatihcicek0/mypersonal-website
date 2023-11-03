@@ -5,7 +5,7 @@ export default function Card({ data }) {
             <div id="container-card">
                 <div className="card">
                     <div>
-                        <img width="70" height="70" src="https://cdn-icons-png.flaticon.com/512/2282/2282226.png" />
+                        <img width="65" height="65" src="https://cdn-icons-png.flaticon.com/512/2282/2282226.png" />
                     </div>
                     <div className='card-body'>
                         <div>
@@ -16,7 +16,7 @@ export default function Card({ data }) {
                 </div>
                 <div className="card">
                     <div>
-                        <img width="80" height="86" src="https://cdn-icons-png.flaticon.com/128/954/954574.png" />
+                        <img width="75" height="80" src="https://cdn-icons-png.flaticon.com/128/954/954574.png" />
                     </div>
                     <div className='card-body'>
                         <div>
@@ -40,7 +40,7 @@ export default function Card({ data }) {
                 </div>
                 <div className="card">
                     <div>
-                        <img width="75" height="70" src="https://img.icons8.com/external-obvious-flat-kerismaker/96/external-blog-internet-marketing-flat-obvious-flat-kerismaker.png" alt="external-blog-internet-marketing-flat-obvious-flat-kerismaker"></img>
+                        <img width="70" height="65" src="https://img.icons8.com/external-obvious-flat-kerismaker/96/external-blog-internet-marketing-flat-obvious-flat-kerismaker.png" alt="external-blog-internet-marketing-flat-obvious-flat-kerismaker"></img>
                     </div>
                     <div className='card-body'>
                         <div>
