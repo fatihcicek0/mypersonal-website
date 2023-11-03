@@ -3,6 +3,8 @@ export default function Contact() {
     return (
         <div>
             <div id='container-cnt'>
+                <div id='seperator'></div>
+                <div id='seperator2'></div>
                 <div id='title-cnt'>
                     <h2>Bizimle iletişime geçin</h2>
                 </div>
