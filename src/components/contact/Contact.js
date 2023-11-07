@@ -1,7 +1,7 @@
 import './style.css';
 export default function Contact() {
     return (
-        <div>
+        <section id='contact'>
             <div id='container-cnt'>
                 <div id='seperator'></div>
                 <div id='seperator2'></div>
@@ -17,6 +17,6 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

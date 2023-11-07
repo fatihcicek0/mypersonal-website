@@ -1,7 +1,7 @@
 import './style.css'
 export default function Card({ data }) {
     return (
-        <div>
+        <section id='services' style={{paddingTop:1}}>
             <div id="container-card">
                 <div className="card">
                     <div>
@@ -50,6 +50,6 @@ export default function Card({ data }) {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
