@@ -22,7 +22,7 @@ export default function Projects() {
                         <div className='d-intro'>
                             <a href='https://eventvers.com'>www.eventvers.com
                                 <img alt="open car sales website"
-                                    style={{ display: 'block' }}
+                                    style={{ display: 'block',marginLeft:5 }}
                                     width="28" height="22" class="w-5 mb-1"
                                     src="https://d33wubrfki0l68.cloudfront.net/621fc099b299fce91c2b699d7f08a6e620e38917/d6b3b/assets/site/open.svg" >
                                 </img>
@@ -43,7 +43,7 @@ export default function Projects() {
                         <div className='d-intro'>
                             <a href='https://eventvers.com'>www.eventvers.com
                                 <img alt="open car sales website"
-                                    style={{ display: 'block' }}
+                                    style={{ display: 'block' ,marginLeft:5}}
                                     width="28" height="22" class="w-5 mb-1"
                                     src="https://d33wubrfki0l68.cloudfront.net/621fc099b299fce91c2b699d7f08a6e620e38917/d6b3b/assets/site/open.svg" >
                                 </img>
@@ -64,7 +64,7 @@ export default function Projects() {
                         <div className='d-intro'>
                             <a href='https://eventvers.com'>www.eventvers.com
                                 <img alt="open car sales website"
-                                    style={{ display: 'block' }}
+                                    style={{ display: 'block',marginLeft:5 }}
                                     width="28" height="22" class="w-5 mb-1"
                                     src="https://d33wubrfki0l68.cloudfront.net/621fc099b299fce91c2b699d7f08a6e620e38917/d6b3b/assets/site/open.svg" >
                                 </img>
@@ -85,7 +85,7 @@ export default function Projects() {
                         <div className='d-intro'>
                             <a href='https://eventvers.com'>www.eventvers.com
                                 <img alt="open car sales website"
-                                    style={{ display: 'block' }}
+                                    style={{ display: 'block' ,marginLeft:5}}
                                     width="28" height="22" class="w-5 mb-1"
                                     src="https://d33wubrfki0l68.cloudfront.net/621fc099b299fce91c2b699d7f08a6e620e38917/d6b3b/assets/site/open.svg" >
                                 </img>

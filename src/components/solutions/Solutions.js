@@ -1,11 +1,11 @@
 import './style.css'
 export default function Solutions({ data }) {
     return (
-        <section id='services' style={{paddingTop:1}}>
+        <section id='services' style={{ paddingTop: 1 }}>
             <div id="container-card">
                 <div className="card">
                     <div>
-                        <img width="65" height="65" src="https://cdn-icons-png.flaticon.com/512/2282/2282226.png" />
+                        <img width="63" height="60" src="https://cdn-icons-png.flaticon.com/512/2282/2282226.png" />
                     </div>
                     <div className='card-body'>
                         <div>
@@ -16,7 +16,8 @@ export default function Solutions({ data }) {
                 </div>
                 <div className="card">
                     <div>
-                        <img width="75" height="80" src="https://cdn-icons-png.flaticon.com/128/954/954574.png" />
+                        <img width="65" height="70" src="   https://cdn-icons-png.flaticon.com/512/2972/2972316.png " />
+                        {/* <img width="75" height="80" src="https://cdn-icons-png.flaticon.com/128/954/954574.png" /> */}
                     </div>
                     <div className='card-body'>
                         <div>
@@ -29,16 +30,16 @@ export default function Solutions({ data }) {
                     <div>
                         <img width="64" height="64"
                             // style={{ backgroundColor: '#dddddd', padding: 15, borderRadius: 7 }}
-                            src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/external-search-logistics-wanicon-lineal-color-wanicon.png" alt="external-search-logistics-wanicon-lineal-color-wanicon" />
+                            src="https://cdn-icons-png.flaticon.com/512/7991/7991055.png" />
                     </div>
                     <div className='card-body'>
                         <div>
-                            <h3>Ürün Tanıtım Sitesi</h3>
-                            <p>Ürünlerinizi Web ortamında online olarak tanıtabileceğiniz siteler </p>
+                            <h3>Web yazılım çözümleri</h3>
+                            <p>İşlerinizi kolaylaştıracak , günlük problemlerinizi çözecek web çözümleri</p>
                         </div>
                     </div>
                 </div>
-                <div className="card">
+                {/* <div className="card">
                     <div>
                         <img width="70" height="65" src="https://img.icons8.com/external-obvious-flat-kerismaker/96/external-blog-internet-marketing-flat-obvious-flat-kerismaker.png" alt="external-blog-internet-marketing-flat-obvious-flat-kerismaker"></img>
                     </div>
@@ -48,7 +49,7 @@ export default function Solutions({ data }) {
                             <p>Günlük Bloglarınızı yayınlayabileceğiniz ve abonelerinize mail yoluyla bülten yollayabileceğiniz Blog Siteleri</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )
