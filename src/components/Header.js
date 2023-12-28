@@ -13,6 +13,7 @@ export default function Header() {
             <nav className='nav'>
                 <NavLink to="/">Anasayfa</NavLink>
                 <HashLink to="#services">Hizmetler</HashLink>
+                <HashLink to="#projects">projeler</HashLink>
                 <HashLink to="#contact">İletişim</HashLink>
             </nav>
             <div id="burger-menu" onClick={() => clickBurger()}>

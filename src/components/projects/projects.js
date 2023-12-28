@@ -3,7 +3,8 @@ import eventvers from '../../assets/eventvers.png'
 export default function Projects() {
     console.log(window.innerWidth)
     return (
-        <div id="container-projects">
+        <section id='projects'>
+            <div id="container-projects">
             <h2 id='p-title'>Bitirdiğimiz projeler</h2>
             <div id='scroll-box'>
                 <div id='p-container-card'>
@@ -95,5 +96,6 @@ export default function Projects() {
                 </div>
             </div>
         </div>
+        </section>
     )
 }
