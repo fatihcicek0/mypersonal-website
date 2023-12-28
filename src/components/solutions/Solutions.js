@@ -1,5 +1,5 @@
 import './style.css'
-export default function Card({ data }) {
+export default function Solutions({ data }) {
     return (
         <section id='services' style={{paddingTop:1}}>
             <div id="container-card">

@@ -1,19 +1,13 @@
-import Card from '../components/card/Card'
+import Solutions from '../components/solutions/Solutions'
 import Contact from '../components/contact/Contact'
 import Freelancer from '../components/Freelancer/Freelancer'
+import Projects from '../components/projects/projects'
+import gif from '../assets/gif.gif'
 import './style.css'
 export default function Home() {
     return (
         <div id='container-home'>
-            {/* <div id='banner'>
-                <img id="profile-img" src="https://media-otp1-1.cdn.whatsapp.net/v/t61.24694-24/299621514_3346550135591905_5367856567433677949_n.jpg?ccb=11-4&oh=01_AdQPNHjPDWxxxZNmviUw6d9dpNU9Owwqy2aAFmUr8GRO7g&oe=65465C8A&_nc_sid=000000&_nc_cat=100"></img>
-                
-                <div id='title'>
-                    <div>İşinizi <span>Dijital</span></div>
-                    <div><span>Dünya'ya</span> Taşıyın</div>
-                </div>
-            </div> */}
-            <div id='solution'>
+            <div id='banner'>
                 <div id='box-left'>
                     <div id='screens'>
                         <div id='container-web'>
@@ -25,14 +19,15 @@ export default function Home() {
                             <img id='web-img' src='https://user-images.githubusercontent.com/100020069/225827842-ef4a8b7e-cfd8-4739-b578-8a33b737c63b.png'></img>
                         </div>
                         <div id='container-responsive'>
-                            <img id='responsive-img' width="300" src='https://user-images.githubusercontent.com/100020069/225834061-8db2b459-0d09-4afc-891f-9f4bb0973613.png'></img>
+                            <div id='notch'></div>
+                            <img id='responsive-img'  src='https://user-images.githubusercontent.com/100020069/225834061-8db2b459-0d09-4afc-891f-9f4bb0973613.png'></img>
                         </div>
                     </div>
                 </div>
                 <div id='box-right'>
                     <div id='title'>
                         <div>İşinizi Geliştirecek</div>
-                        <div><span>Mobil Uyumlu</span></div>
+                        <div><span id='title-middle'>Mobil Uyumlu</span></div>
                         <div> <span>Web  Çözümleri</span></div>
                     </div>
                     <div id='techs'>
@@ -54,27 +49,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <Card />
+            <Solutions />
+            <Projects/>
             <Freelancer />
             <Contact />
-            {/* <div id='solution'>
-                <div id='screens'>
-                    <div id='container-web'>
-                        <div id='header-cw'>
-                            <div style={{backgroundColor:'red'}} className='point'></div>
-                            <div style={{backgroundColor:'#ffb300'}} className='point'></div>
-                            <div  style={{backgroundColor:'#0ec70e'}} className='point'></div>
-                        </div>
-                        <img id='web-img' src='https://user-images.githubusercontent.com/100020069/225827842-ef4a8b7e-cfd8-4739-b578-8a33b737c63b.png'></img>
-                    </div>
-                    <div id='container-responsive'>
-                        <div id='notch'></div>
-                        <img id='responsive-img' width="300" src='https://user-images.githubusercontent.com/100020069/225834061-8db2b459-0d09-4afc-891f-9f4bb0973613.png'></img>
-                    </div>
-                </div>
-                <div>
-                    asdsadsadsada
-                </div>
-            </div> */}
         </div>)
 }
