@@ -34,8 +34,24 @@ export default function Solutions({ data }) {
                     </div>
                     <div className='card-body'>
                         <div>
-                            <h3>Web yazılım çözümleri</h3>
-                            <p>İşlerinizi kolaylaştıracak , günlük problemlerinizi çözecek web çözümleri</p>
+                            <h3>Web Yazılım Çözümleri</h3>
+                            <p>İşlerinizi kolaylaştıracak , günlük problemlerinizi çözecek  size özel web çözümleri</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="card">
+                    <div>
+                        <img width="64" height="64"
+                             style={{ marginTop:7}}
+                             //style={{ backgroundColor: '#dddddd', padding: 15, borderRadius: 7 }}
+                            //src="https://cdn-icons-png.flaticon.com/512/5608/5608615.png" 
+                            src="https://cdn-icons-png.flaticon.com/512/3437/3437364.png"
+                            />
+                    </div>
+                    <div className='card-body'>
+                        <div>
+                            <h3>Mobil Uygulama</h3>
+                            <p>Modern yazılım teknolojilerini kullanarak fikirlerinizi cebinize sığdırıyoruz</p>
                         </div>
                     </div>
                 </div>
