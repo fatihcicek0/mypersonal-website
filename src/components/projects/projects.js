@@ -37,11 +37,11 @@ export default function Projects() {
                                     <div style={{ backgroundColor: '#ffb300' }} className='point'></div>
                                     <div style={{ backgroundColor: '#0ec70e' }} className='point'></div>
                                 </div>
-                                <img id='web-img' src={eventvers}></img>
+                                <img id='web-img' src="https://user-images.githubusercontent.com/100020069/225827842-ef4a8b7e-cfd8-4739-b578-8a33b737c63b.png"></img>
                             </div>
                         </div>
                         <div className='d-intro'>
-                            <a href='https://eventvers.com'>www.eventvers.com
+                            <a href='https://eventvers.com'>www.shopping.com
                                 <img alt="open car sales website"
                                     style={{ display: 'block' ,marginLeft:5}}
                                     width="28" height="22" class="w-5 mb-1"
