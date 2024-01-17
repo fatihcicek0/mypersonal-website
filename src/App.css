@@ -5,7 +5,8 @@
 
 #app {
   /* background-color: #fafbff; */
-  background-color: rgb(243, 245, 249);
+  /* background-color: rgb(243, 245, 249); */
+  background-color: white;
 }
 
 header {
@@ -90,7 +91,7 @@ header nav {
     background-color: #007bff;
     z-index: 2;
     border-radius: 20px;
-    transition: top 0.3s;
+    transition: .3s;
     
   }
 
