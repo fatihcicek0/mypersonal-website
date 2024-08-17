@@ -1,6 +1,6 @@
 #container-card {
   background-color: white;
-  margin: 60px auto;
+  margin: auto;
   width: 900px;
   display: flex;
   flex-wrap: wrap;

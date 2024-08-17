@@ -31,7 +31,7 @@ export default function Home() {
                             <div><span id='title-middle'>Mobil Uyumlu</span></div>
                             <div> <span>Web  Çözümleri</span></div>
                         </div>
-                        <div id='techs'>
+                        {/* <div id='techs'>
                             <img className='img-tech' src='https://camo.githubusercontent.com/e8cac53cd22e95a470844c0edda4b9b32261b0c7c01592066eb9fbeffc0d343e/68747470733a2f2f7777772e706870726f2e62652f6d656469612f3434302f646f776e6c6f61642f726561637425343034782e706e673f763d32'></img>
                             <img className='img-tech' src='https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png'></img>
                             <img
@@ -47,7 +47,7 @@ export default function Home() {
                                 id='icon-aws'
                                 // width="70" height="50" style={{ marginTop: 25, marginLeft: 25 }}
                                 src='https://content.partnerpage.io/eyJidWNrZXQiOiJwYXJ0bmVycGFnZS5wcm9kIiwia2V5IjoibWVkaWEvY29udGFjdF9pbWFnZXMvM2VkMDNlYmItZDQ0NS00ZjhmLWI5YjItZmY3YTgyMjM2YTlkLzE5MjBweC1BbWF6b25fV2ViX1NlcnZpY2VzX0xvZ28uc3ZnLnBuZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MH19fX0='></img>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

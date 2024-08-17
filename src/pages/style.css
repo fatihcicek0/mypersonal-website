@@ -53,11 +53,11 @@
 
 
 #banner{
-    margin: auto;
+    margin:60px auto;
     display:flex;
     justify-content: space-evenly;
     margin-top: 100px;
-    width: 900px;
+    width: max-content;
 }
 #box-left{
     width: 570px;

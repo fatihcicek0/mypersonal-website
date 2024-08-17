@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <section id='home'>
             <header>
-                <Link id='name'>CFatih.developer 👋</Link>
+                <Link id='name'>🚀</Link>
                 <nav className='nav'>
                     <HashLink to="#home">Anasayfa</HashLink>
                     <HashLink to="#services">Hizmetler</HashLink>
